@@ -93,6 +93,7 @@ public class MenuActivity extends AppCompatActivity
              Intent intent = new Intent(MenuActivity.this, SiteListActivity.class);
              startActivity(intent);
 
+
         } else if (id == R.id.nav_hotel) {
              Intent intent= new Intent(MenuActivity.this, HotelListActivity.class);
              startActivity(intent);

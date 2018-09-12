@@ -10,6 +10,7 @@ import com.example.android.testturisapp.data.Utilidades;
 public class CrudHotel
 {
         private static ConexionOpenHelper dataBase;
+
         private static CrudHotel instance = new CrudHotel();
 
         public CrudHotel() {}
